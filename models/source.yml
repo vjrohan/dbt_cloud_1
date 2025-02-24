@@ -2,7 +2,11 @@ version: 2
 
 sources:
   - name: cust
+    database: RAW_DATABASE  
+    schema: DBT_SCHEMA     
     tables:
       - name: customers
         columns:
           - name: first_name
+            tests: 
+              - namecheck  
