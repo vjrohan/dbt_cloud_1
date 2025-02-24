@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: cust
+    tables:
+      - name: customers
+        columns:
+          - name: first_name
